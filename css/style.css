@@ -236,3 +236,125 @@ body{
     overflow: hidden;
     margin: 15px;
 } */
+
+/* bottom-banner style  */
+
+.bottom-banner{
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.bottom-banner .bot-banner-left{
+    margin-left: 156px;
+    width: 469px;
+}
+
+.bottom-banner .bot-banner-left h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: default;
+    transition: color 1s ease-in;
+}
+
+.bottom-banner .bot-banner-left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    text-align: justify;
+    padding-bottom: 10px;
+    cursor: default;
+}
+
+.bottom-banner .bot-banner-left div{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+
+.bottom-banner .bot-banner-left div ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.bottom-banner .bot-banner-left div ul .live{
+    padding-right: 8px;
+    margin-left: 24px;
+}
+
+.bottom-banner .bot-banner-left div ul li{
+    margin-top: 10px;
+}
+
+.bottom-banner .bot-banner-left div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottom-banner .bot-banner-right{
+    margin-right: 156px;
+}
+
+.bottom-banner .bot-banner-right img{
+    width: 600px;
+}
+
+/*----------Bottom Banner Hover Effect----------*/
+
+.bottom-banner:hover .bot-banner-head{
+    color: #3e2ce0;
+}
+
+/* footer css style  */
+.footer{
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer .logo-socials{
+    justify-self: center;
+}
+
+.footer .logo-socials .logo{
+    width: 250px;
+}
+
+.footer .logo-socials .socials{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo-socials .socials a{
+    padding: 4px 8.57px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #969BAB;
+    background-color: rgba(0,0,0,0.1);
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.footer .logo-socials .socials a i{
+    font-size: 17px;
+    color: #969BAB;
+}
+
+.footer .logo-socials p{
+    padding-top: 10px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
