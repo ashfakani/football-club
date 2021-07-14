@@ -72,6 +72,7 @@ body{
     align-items: center;
     background-color: #2D25A0;
     margin-bottom: 50px;
+    padding-top: 30px;
 }
 
 .top-banner .left-banner{
@@ -122,7 +123,6 @@ body{
 }
 .top-banner .right-banner img{
     width: 556.01px;
-    height: 438px;
     left: 1299.01px;
     top: 153px;
     transition: transform 1s ease-in-out, padding-bottom 1s ease-in-out, padding-top 1s ease-in-out
@@ -523,7 +523,7 @@ body{
         height: 256px;
     }
 
-    .player-list .player p{
+    .player-list .player p span{
         display: none;
     }
 
@@ -531,6 +531,11 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 50px;
+    }
+
+    .player-list div .player-1-info {
+        height: 256px;
+        width: 300px;
     }
 
     .player-list div h2 {
@@ -607,9 +612,5 @@ body{
     .player-list .player .player-img-1{
         width: 300px;
         height: 256px;
-    }
-
-    .player-list .player p{
-        display: none;
     }
 }
