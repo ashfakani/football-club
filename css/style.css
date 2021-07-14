@@ -4,7 +4,235 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-
+/* nav-bar css  */
 .nav-bar{
-    background-color:#2D25A0, 100% ;
+    background-color:#2D25A0;
+    
 }
+.nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+
+}
+.nav-bar nav ul{
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.nav-bar nav .menu{
+    margin-left: 156px;
+    align-items: center;
+}
+
+.nav-bar nav .login{
+    margin-right: 124px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 24px;
+    background: #E02C6D;
+}
+.nav-bar nav ul li{
+    list-style: none;
+    padding-right: 36px;
+    transition: transform .2s ease-in-out;
+}
+
+
+.nav-bar nav .login .icon{
+    padding-right: 8px;
+}
+
+.nav-bar nav .login .text{
+    
+    padding-right: 0px;
+}
+
+.nav-bar nav ul li a, .menu{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+ 
+    align-items: center;
+}
+
+/* .nav-bar transform */
+.menu li:hover{
+    transform: scale(1.2);
+}
+
+/* Top Banner */
+
+.top-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-bottom: 50px;
+}
+
+.top-banner .left-banner{
+    margin-left: 156px;
+    width: 485px;
+}
+.top-banner .left-banner h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 1s ease-in-out, padding-bottom 1s ease-in-out;
+    cursor: default;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+}
+.top-banner .left-banner div ul{
+    display: flex;
+    list-style: none;
+    top: 464px;
+    width: 168px;
+    height: 44px;
+    padding-left: 0px;
+    background-color: #E02C6D;
+    cursor: pointer;
+    transition: margin-left .3s ease-in-out 1s;
+}
+
+
+.top-banner .left-banner div ul .live{
+    padding-right: 8px;
+    margin-left: 24px;
+}
+
+.top-banner .left-banner div ul li{
+    margin-top: 10px;
+}
+
+.top-banner .left-banner div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-banner .right-banner{
+    margin-right: 156px;
+}
+.top-banner .right-banner img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px;
+    transition: transform 1s ease-in-out, padding-bottom 1s ease-in-out, padding-top 1s ease-in-out
+
+}
+
+/* .top-banner hover  */
+
+.top-banner:hover .banner-player{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: scale(1.2);
+}
+.top-banner:hover h1{
+    transform: scale(1.2);
+    padding-bottom: 13px;
+    padding-left: 50px;
+    
+}
+
+.top-banner:hover .live-button{
+    margin-left: 110px;
+}
+
+
+/* player list css style  */
+
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.player-list .player-1, .player-4, .player-7, .player-10{
+    justify-self: end;
+    margin-right: -17px;
+}
+.player-list .player-2, .player-5, .player-8, .player-11{
+    justify-self: center;
+}
+
+.player-list .player-3, .player-6, .player-9, .player-12{
+    justify-self: start;
+    margin-left: -17px;
+}
+.player-list div{
+    width: 495px;
+    height: 711px;
+    background-color: #fff;
+}
+.player-list .player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-list div .player-1-info{
+    height: 388.266px;
+    width: 465px;
+    overflow: hidden;
+    margin: 15px;
+}
+.player-list div img{
+    width: 100%;
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+.player-list div h2{
+    font-size: 38px;
+    font-weight: 700;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: color 1s ease-in;
+}
+.player-list div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+/* player list hover  */
+
+.player:hover .player-img-1{
+    transform: scale(1.15);
+}
+.player:hover .player-name{
+    color: #3e4fe4;
+}
+
+
+
+
+
+
+
+/* .player-list .player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-list div .player-1-info{
+    height: 474px;
+    width: 330px;
+    overflow: hidden;
+    margin: 15px;
+} */
